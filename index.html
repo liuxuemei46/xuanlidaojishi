@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>散列画廊特色排序demo</title>
+		<link rel="stylesheet" href="css/main.css" />
+
+	
+			
+		
+	</head>
+	<body onselectstart="return false">
+	   <div class="wrapper" id="wrapper">
+	   	  <div class="photo photo-front" onclick="turn(this)" id="photo-{{index}}" >
+	   	  	<!--改写视图为模块字符串-->
+	   	  	 <div class="photo-wrap">
+	   	  	  <div class="side side-front">
+	   	  	  	<p class="images"><img src="img/images/{{img}}"/></p>
+	   	  	  	<p class="caption">{{caption}}</p>
+	   	  	  </div>
+	   	  	  <div class="side side-back">
+	   	  	  	 <p class="desc">{{desc}}</p>
+	   	  	  </div>
+	   	  	  </div>
+	   	  </div>
+	   	
+	   </div>
+	
+    
